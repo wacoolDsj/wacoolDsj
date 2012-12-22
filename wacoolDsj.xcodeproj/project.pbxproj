@@ -10,8 +10,6 @@
 		65FDD5901685AC7D0093DAB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FDD58F1685AC7D0093DAB2 /* UIKit.framework */; };
 		65FDD5921685AC7D0093DAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FDD5911685AC7D0093DAB2 /* Foundation.framework */; };
 		65FDD5941685AC7D0093DAB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FDD5931685AC7D0093DAB2 /* CoreGraphics.framework */; };
-		65FDD59A1685AC7D0093DAB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65FDD5981685AC7D0093DAB2 /* InfoPlist.strings */; };
-		65FDD59C1685AC7D0093DAB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FDD59B1685AC7D0093DAB2 /* main.m */; };
 		65FDD5A01685AC7D0093DAB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FDD59F1685AC7D0093DAB2 /* AppDelegate.m */; };
 		65FDD5A81685AC7D0093DAB2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FDD5A71685AC7D0093DAB2 /* SenTestingKit.framework */; };
 		65FDD5A91685AC7D0093DAB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FDD58F1685AC7D0093DAB2 /* UIKit.framework */; };
@@ -35,10 +33,6 @@
 		65FDD58F1685AC7D0093DAB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65FDD5911685AC7D0093DAB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65FDD5931685AC7D0093DAB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		65FDD5971685AC7D0093DAB2 /* wacoolDsj-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wacoolDsj-Info.plist"; sourceTree = "<group>"; };
-		65FDD5991685AC7D0093DAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65FDD59B1685AC7D0093DAB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		65FDD59D1685AC7D0093DAB2 /* wacoolDsj-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wacoolDsj-Prefix.pch"; sourceTree = "<group>"; };
 		65FDD59E1685AC7D0093DAB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65FDD59F1685AC7D0093DAB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		65FDD5A61685AC7D0093DAB2 /* wacoolDsjTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wacoolDsjTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,20 +102,8 @@
 			children = (
 				65FDD59E1685AC7D0093DAB2 /* AppDelegate.h */,
 				65FDD59F1685AC7D0093DAB2 /* AppDelegate.m */,
-				65FDD5961685AC7D0093DAB2 /* Supporting Files */,
 			);
 			path = wacoolDsj;
-			sourceTree = "<group>";
-		};
-		65FDD5961685AC7D0093DAB2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				65FDD5971685AC7D0093DAB2 /* wacoolDsj-Info.plist */,
-				65FDD5981685AC7D0093DAB2 /* InfoPlist.strings */,
-				65FDD59B1685AC7D0093DAB2 /* main.m */,
-				65FDD59D1685AC7D0093DAB2 /* wacoolDsj-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		65FDD5AD1685AC7D0093DAB2 /* wacoolDsjTests */ = {
@@ -214,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65FDD59A1685AC7D0093DAB2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65FDD59C1685AC7D0093DAB2 /* main.m in Sources */,
 				65FDD5A01685AC7D0093DAB2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,14 +253,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		65FDD5981685AC7D0093DAB2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65FDD5991685AC7D0093DAB2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		65FDD5B01685AC7D0093DAB2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
