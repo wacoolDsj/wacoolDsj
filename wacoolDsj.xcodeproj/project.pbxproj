@@ -41,6 +41,7 @@
 		65FDD5B11685AC7D0093DAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65FDD5B31685AC7D0093DAB2 /* wacoolDsjTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wacoolDsjTests.h; sourceTree = "<group>"; };
 		65FDD5B41685AC7D0093DAB2 /* wacoolDsjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wacoolDsjTests.m; sourceTree = "<group>"; };
+		65FDD5BE1685B4600093DAB2 /* CIColor_sdfdsf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIColor_sdfdsf.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 			children = (
 				65FDD59E1685AC7D0093DAB2 /* AppDelegate.h */,
 				65FDD59F1685AC7D0093DAB2 /* AppDelegate.m */,
+				65FDD5BE1685B4600093DAB2 /* CIColor_sdfdsf.h */,
 			);
 			path = wacoolDsj;
 			sourceTree = "<group>";
